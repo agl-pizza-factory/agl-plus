@@ -1,0 +1,1366 @@
+{
+  "projects": [
+    {
+      "id": "customer-api",
+      "features": [
+        {
+          "id": "github",
+          "name": "GitHub",
+          "description": "Provision a private GitHub repo with the project",
+          "icon": "https://logo.clearbit.com/github.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Checking for availability",
+              "percentage": 100
+            },
+            {
+              "text": "Creating repository",
+              "percentage": 100
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Organization",
+              "description": "GitHub organization",
+              "type": "string"
+            },
+            {
+              "name": "Respository Name",
+              "description": "Optional. By default uses project name",
+              "type": "string"
+            }
+          ],
+          "chats": "27",
+          "status": "completed",
+          "environment": {
+            "repoName": "customer-api",
+            "repoId": 99568441,
+            "url": "https://github.com/agl-pizza-factory/customer-api",
+            "cloneUrl": "https://github.com/agl-pizza-factory/customer-api.git",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+          }
+        },
+        {
+          "id": "jira",
+          "name": "JIRA",
+          "description": "Open a dedicated JIRA account",
+          "icon": "https://logo.clearbit.com/jira.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 100
+            },
+            {
+              "text": "Creating account",
+              "percentage": 100
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 10
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "JIRA Server URL",
+              "type": "string"
+            }
+          ],
+          "chats": "76"
+        },
+        {
+          "id": "sharepoint",
+          "name": "SharePoint",
+          "description": "Create Microsoft SharePoint space for documents",
+          "icon": "https://logo.clearbit.com/microsoft.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "License Provisioning",
+              "percentage": 20
+            },
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 0
+            },
+            {
+              "text": "Creating account",
+              "percentage": 0
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "type": "string"
+            },
+            {
+              "name": "Description",
+              "description": "Description (Optional)",
+              "type": "string"
+            },
+            {
+              "name": "Owner",
+              "description": "Owner (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "58"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "Create a Slack group for the team",
+          "icon": "https://logo.clearbit.com/slack.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Creating group",
+              "percentage": 100
+            },
+            {
+              "text": "Inviting members",
+              "percentage": 60
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Slack Group",
+              "type": "string"
+            },
+            {
+              "name": "Slack incoming Webhook URL",
+              "type": "string"
+            },
+            {
+              "name": "Channels",
+              "description": "Channels (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "53"
+        },
+        {
+          "id": "analytics",
+          "name": "Analytics",
+          "description": "Add analytics module and configure",
+          "icon": "https://logo.clearbit.com/gaiq-center.com",
+          "progress": [
+            {
+              "text": "Waiting for new client id",
+              "percentage": 20
+            },
+            {
+              "text": "Configure new client",
+              "percentage": 0
+            },
+            {
+              "text": "Generate and publish source code",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Client ID",
+              "type": "string"
+            },
+            {
+              "name": "Redirect URI",
+              "type": "string"
+            },
+            {
+              "name": "Tracking ID",
+              "type": "string"
+            }
+          ],
+          "chats": "31"
+        }
+      ],
+      "rating": 4.8,
+      "reviews": 847,
+      "name": "Customer API",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "methodology": "API - NodeJS",
+      "costCode": "CS123",
+      "businessOwner": "Burch Luna",
+      "technicalOwner": "Kitty Briggs",
+      "chats": 90
+    },
+    {
+      "id": "agl-ideas",
+      "features": [
+        {
+          "id": "github",
+          "name": "GitHub",
+          "description": "Provision a private GitHub repo with the project",
+          "icon": "https://logo.clearbit.com/github.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Checking for availability",
+              "percentage": 100
+            },
+            {
+              "text": "Creating repository",
+              "percentage": 100
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Organization",
+              "description": "GitHub organization",
+              "type": "string"
+            },
+            {
+              "name": "Respository Name",
+              "description": "Optional. By default uses project name",
+              "type": "string"
+            }
+          ],
+          "chats": "73",
+          "status": "completed",
+          "environment": {
+            "repoName": "agl-ideas",
+            "repoId": 99568492,
+            "url": "https://github.com/agl-pizza-factory/agl-ideas",
+            "cloneUrl": "https://github.com/agl-pizza-factory/agl-ideas.git",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+          }
+        },
+        {
+          "id": "jira",
+          "name": "JIRA",
+          "description": "Open a dedicated JIRA account",
+          "icon": "https://logo.clearbit.com/jira.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 100
+            },
+            {
+              "text": "Creating account",
+              "percentage": 100
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 10
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "JIRA Server URL",
+              "type": "string"
+            }
+          ],
+          "chats": "64"
+        },
+        {
+          "id": "sharepoint",
+          "name": "SharePoint",
+          "description": "Create Microsoft SharePoint space for documents",
+          "icon": "https://logo.clearbit.com/microsoft.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "License Provisioning",
+              "percentage": 20
+            },
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 0
+            },
+            {
+              "text": "Creating account",
+              "percentage": 0
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "type": "string"
+            },
+            {
+              "name": "Description",
+              "description": "Description (Optional)",
+              "type": "string"
+            },
+            {
+              "name": "Owner",
+              "description": "Owner (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "59"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "Create a Slack group for the team",
+          "icon": "https://logo.clearbit.com/slack.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Creating group",
+              "percentage": 100
+            },
+            {
+              "text": "Inviting members",
+              "percentage": 60
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Slack Group",
+              "type": "string"
+            },
+            {
+              "name": "Slack incoming Webhook URL",
+              "type": "string"
+            },
+            {
+              "name": "Channels",
+              "description": "Channels (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "56"
+        },
+        {
+          "id": "resource-group",
+          "name": "Azure Resource Group",
+          "description": "Create and configurat an Azure Resource Group",
+          "icon": "https://logo.clearbit.com/movemetothecloud.net",
+          "progress": [
+            {
+              "text": "Provision resource group",
+              "percentage": 20
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "name": "Price Plan",
+              "type": "string"
+            }
+          ],
+          "chats": "95"
+        },
+        {
+          "id": "customer-auth",
+          "name": "Customer Authorization",
+          "description": "Configure customer authorization",
+          "icon": "https://logo.clearbit.com/auth0.com",
+          "progress": [
+            {
+              "text": "Waiting for new client id",
+              "percentage": 20
+            },
+            {
+              "text": "Configure new client",
+              "percentage": 0
+            },
+            {
+              "text": "Generate and publish source code",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "description": "Enter your domain here",
+              "type": "string"
+            },
+            {
+              "name": "Callback Url",
+              "description": "Coma separated list of URLs",
+              "type": "string"
+            },
+            {
+              "name": "Logout Url",
+              "description": "Coma separated list of URLs",
+              "type": "string"
+            },
+            {
+              "name": "Timeout",
+              "description": "In seconds",
+              "type": "number",
+              "min": "0",
+              "max": "600"
+            },
+            {
+              "name": "Allowed Domains",
+              "description": "Coma separated list of domains",
+              "type": "string"
+            }
+          ],
+          "chats": "46"
+        }
+      ],
+      "businessOwner": "Cline Boyer",
+      "technicalOwner": "Stanton Watson",
+      "members": [
+        "Albert Collier",
+        " Woodward Robbins"
+      ],
+      "rating": 2.9700351076003972,
+      "reviews": 369,
+      "name": "AGL Ideas",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "methodology": "Angular - Mobile",
+      "costCode": "AD234X3",
+      "chats": 43
+    },
+    {
+      "id": "agl-universal-auth",
+      "features": [
+        {
+          "id": "github",
+          "name": "GitHub",
+          "description": "Provision a private GitHub repo with the project",
+          "icon": "https://logo.clearbit.com/github.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Checking for availability",
+              "percentage": 100
+            },
+            {
+              "text": "Creating repository",
+              "percentage": 100
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Organization",
+              "description": "GitHub organization",
+              "type": "string"
+            },
+            {
+              "name": "Respository Name",
+              "description": "Optional. By default uses project name",
+              "type": "string"
+            }
+          ],
+          "chats": "36",
+          "status": "completed",
+          "environment": {
+            "repoName": "agl-universal-auth",
+            "repoId": 99568544,
+            "url": "https://github.com/agl-pizza-factory/agl-universal-auth",
+            "cloneUrl": "https://github.com/agl-pizza-factory/agl-universal-auth.git",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+          }
+        },
+        {
+          "id": "jira",
+          "name": "JIRA",
+          "description": "Open a dedicated JIRA account",
+          "icon": "https://logo.clearbit.com/jira.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 100
+            },
+            {
+              "text": "Creating account",
+              "percentage": 100
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 10
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "JIRA Server URL",
+              "type": "string"
+            }
+          ],
+          "chats": "99"
+        },
+        {
+          "id": "sharepoint",
+          "name": "SharePoint",
+          "description": "Create Microsoft SharePoint space for documents",
+          "icon": "https://logo.clearbit.com/microsoft.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "License Provisioning",
+              "percentage": 20
+            },
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 0
+            },
+            {
+              "text": "Creating account",
+              "percentage": 0
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "type": "string"
+            },
+            {
+              "name": "Description",
+              "description": "Description (Optional)",
+              "type": "string"
+            },
+            {
+              "name": "Owner",
+              "description": "Owner (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "8"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "Create a Slack group for the team",
+          "icon": "https://logo.clearbit.com/slack.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Creating group",
+              "percentage": 100
+            },
+            {
+              "text": "Inviting members",
+              "percentage": 60
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Slack Group",
+              "type": "string"
+            },
+            {
+              "name": "Slack incoming Webhook URL",
+              "type": "string"
+            },
+            {
+              "name": "Channels",
+              "description": "Channels (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "47"
+        },
+        {
+          "id": "customer-auth",
+          "name": "Customer Authorization",
+          "description": "Configure customer authorization",
+          "icon": "https://logo.clearbit.com/auth0.com",
+          "progress": [
+            {
+              "text": "Waiting for new client id",
+              "percentage": 20
+            },
+            {
+              "text": "Configure new client",
+              "percentage": 0
+            },
+            {
+              "text": "Generate and publish source code",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "description": "Enter your domain here",
+              "type": "string"
+            },
+            {
+              "name": "Callback Url",
+              "description": "Coma separated list of URLs",
+              "type": "string"
+            },
+            {
+              "name": "Logout Url",
+              "description": "Coma separated list of URLs",
+              "type": "string"
+            },
+            {
+              "name": "Timeout",
+              "description": "In seconds",
+              "type": "number",
+              "min": "0",
+              "max": "600"
+            },
+            {
+              "name": "Allowed Domains",
+              "description": "Coma separated list of domains",
+              "type": "string"
+            }
+          ],
+          "chats": "5"
+        },
+        {
+          "id": "feedback",
+          "name": "User Feedback",
+          "description": "Pre-configured user feedback form",
+          "icon": "https://logo.clearbit.com/surveymonkey.com",
+          "progress": [
+            {
+              "text": "Generate API Key",
+              "percentage": 20
+            },
+            {
+              "text": "Configure API",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Title",
+              "type": "string"
+            },
+            {
+              "name": "Description",
+              "type": "string"
+            }
+          ],
+          "chats": "86"
+        }
+      ],
+      "rating": 4.8,
+      "reviews": 49,
+      "name": "AGL Universal Auth",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "methodology": "API - .NET",
+      "costCode": "KJ123D1",
+      "businessOwner": "Stella Sims",
+      "technicalOwner": "Winters Harrell",
+      "members": [
+        "Harriett Brooks",
+        " Ines Guerra"
+      ],
+      "chats": 27
+    },
+    {
+      "id": "agl-plus",
+      "features": [
+        {
+          "id": "github",
+          "name": "GitHub",
+          "description": "Provision a private GitHub repo with the project",
+          "icon": "https://logo.clearbit.com/github.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Checking for availability",
+              "percentage": 100
+            },
+            {
+              "text": "Creating repository",
+              "percentage": 100
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Organization",
+              "description": "GitHub organization",
+              "type": "string"
+            },
+            {
+              "name": "Respository Name",
+              "description": "Optional. By default uses project name",
+              "type": "string"
+            }
+          ],
+          "chats": "69",
+          "status": "completed",
+          "environment": {
+            "repoName": "agl-plus",
+            "repoId": 99568589,
+            "url": "https://github.com/agl-pizza-factory/agl-plus",
+            "cloneUrl": "https://github.com/agl-pizza-factory/agl-plus.git",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+          }
+        },
+        {
+          "id": "jira",
+          "name": "JIRA",
+          "description": "Open a dedicated JIRA account",
+          "icon": "https://logo.clearbit.com/jira.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 100
+            },
+            {
+              "text": "Creating account",
+              "percentage": 100
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 10
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "JIRA Server URL",
+              "type": "string"
+            }
+          ],
+          "chats": "8"
+        },
+        {
+          "id": "sharepoint",
+          "name": "SharePoint",
+          "description": "Create Microsoft SharePoint space for documents",
+          "icon": "https://logo.clearbit.com/microsoft.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "License Provisioning",
+              "percentage": 20
+            },
+            {
+              "text": "Infrastructure Provisioning",
+              "percentage": 0
+            },
+            {
+              "text": "Creating account",
+              "percentage": 0
+            },
+            {
+              "text": "Custom Instructions",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Domain",
+              "type": "string"
+            },
+            {
+              "name": "Description",
+              "description": "Description (Optional)",
+              "type": "string"
+            },
+            {
+              "name": "Owner",
+              "description": "Owner (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "91"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "Create a Slack group for the team",
+          "icon": "https://logo.clearbit.com/slack.com",
+          "preConfigured": true,
+          "progress": [
+            {
+              "text": "Creating group",
+              "percentage": 100
+            },
+            {
+              "text": "Inviting members",
+              "percentage": 60
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Slack Group",
+              "type": "string"
+            },
+            {
+              "name": "Slack incoming Webhook URL",
+              "type": "string"
+            },
+            {
+              "name": "Channels",
+              "description": "Channels (Optional)",
+              "type": "string"
+            }
+          ],
+          "chats": "28"
+        },
+        {
+          "id": "agl-webapp-template",
+          "name": "AGL Web App Template",
+          "description": "Configure a starter kit using AGL's web app template",
+          "icon": "https://logo.clearbit.com/angular.io",
+          "progress": [
+            {
+              "text": "Initializing repository",
+              "percentage": 100
+            },
+            {
+              "text": "Configuring remote origin",
+              "percentage": 100
+            },
+            {
+              "text": "Configuring template",
+              "percentage": 55
+            },
+            {
+              "text": "Publishing configured code",
+              "percentage": 0
+            },
+            {
+              "text": "Validation",
+              "percentage": 0
+            }
+          ],
+          "configurations": [
+            {
+              "name": "Name",
+              "type": "string"
+            }
+          ],
+          "chats": "29",
+          "status": "in-progress"
+        }
+      ],
+      "rating": 3.741630086111003,
+      "reviews": 481,
+      "name": "AGL Plus",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "methodology": "Angular",
+      "costCode": "CS12382",
+      "businessOwner": "Briggs Melendez",
+      "technicalOwner": "Baldwin Dalton",
+      "members": [
+        "Rebecca Aguirre",
+        " Dunlap Hendricks"
+      ],
+      "chats": 35
+    }
+  ],
+  "features": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Provision a private GitHub repo with the project",
+      "icon": "https://logo.clearbit.com/github.com",
+      "preConfigured": true,
+      "progress": [
+        {
+          "text": "Checking for availability",
+          "percentage": 0
+        },
+        {
+          "text": "Creating repository",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Organization",
+          "description": "GitHub organization",
+          "type": "string"
+        },
+        {
+          "name": "Respository Name",
+          "description": "Optional. By default uses project name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "name": "JIRA",
+      "description": "Open a dedicated JIRA account",
+      "icon": "https://logo.clearbit.com/jira.com",
+      "preConfigured": true,
+      "progress": [
+        {
+          "text": "Infrastructure Provisioning",
+          "percentage": 100
+        },
+        {
+          "text": "Creating account",
+          "percentage": 100
+        },
+        {
+          "text": "Custom Instructions",
+          "percentage": 10
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "JIRA Server URL",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "sharepoint",
+      "name": "SharePoint",
+      "description": "Create Microsoft SharePoint space for documents",
+      "icon": "https://logo.clearbit.com/microsoft.com",
+      "preConfigured": true,
+      "progress": [
+        {
+          "text": "License Provisioning",
+          "percentage": 20
+        },
+        {
+          "text": "Infrastructure Provisioning",
+          "percentage": 0
+        },
+        {
+          "text": "Creating account",
+          "percentage": 0
+        },
+        {
+          "text": "Custom Instructions",
+          "percentage": 0
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Domain",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "description": "Description (Optional)",
+          "type": "string"
+        },
+        {
+          "name": "Owner",
+          "description": "Owner (Optional)",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "Create a Slack group for the team",
+      "icon": "https://logo.clearbit.com/slack.com",
+      "preConfigured": true,
+      "progress": [
+        {
+          "text": "Creating group",
+          "percentage": 100
+        },
+        {
+          "text": "Inviting members",
+          "percentage": 60
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Slack Group",
+          "type": "string"
+        },
+        {
+          "name": "Slack incoming Webhook URL",
+          "type": "string"
+        },
+        {
+          "name": "Channels",
+          "description": "Channels (Optional)",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "customer-auth",
+      "name": "Customer Authorization",
+      "description": "Configure customer authorization",
+      "icon": "https://logo.clearbit.com/auth0.com",
+      "progress": [
+        {
+          "text": "Waiting for new client id",
+          "percentage": 20
+        },
+        {
+          "text": "Configure new client",
+          "percentage": 0
+        },
+        {
+          "text": "Generate and publish source code",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Domain",
+          "description": "Enter your domain here",
+          "type": "string"
+        },
+        {
+          "name": "Callback Url",
+          "description": "Coma separated list of URLs",
+          "type": "string"
+        },
+        {
+          "name": "Logout Url",
+          "description": "Coma separated list of URLs",
+          "type": "string"
+        },
+        {
+          "name": "Timeout",
+          "description": "In seconds",
+          "type": "number",
+          "min": "0",
+          "max": "600"
+        },
+        {
+          "name": "Allowed Domains",
+          "description": "Coma separated list of domains",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "agl-webapp-template",
+      "name": "AGL Web App Template",
+      "description": "Configure a starter kit using AGL's web app template",
+      "icon": "https://logo.clearbit.com/angular.io",
+      "progress": [
+        {
+          "text": "Waiting for repository provisioning",
+          "percentage": 30
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "staff-auth",
+      "name": "Staff Authorization",
+      "description": "Configure staff authorization",
+      "icon": "https://logo.clearbit.com/auth0.com",
+      "progress": [
+        {
+          "text": "Waiting for new client id",
+          "percentage": 20
+        },
+        {
+          "text": "Configure new client",
+          "percentage": 0
+        },
+        {
+          "text": "Generate and publish source code",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Domain",
+          "description": "Enter your domain here",
+          "type": "string"
+        },
+        {
+          "name": "Callback Url",
+          "description": "Coma separated list of URLs",
+          "type": "string"
+        },
+        {
+          "name": "Logout Url",
+          "description": "Coma separated list of URLs",
+          "type": "string"
+        },
+        {
+          "name": "Timeout",
+          "description": "In seconds",
+          "type": "number",
+          "min": "0",
+          "max": "600"
+        },
+        {
+          "name": "Allowed Domains",
+          "description": "Coma separated list of domains",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "description": "Add analytics module and configure",
+      "icon": "https://logo.clearbit.com/gaiq-center.com",
+      "progress": [
+        {
+          "text": "Waiting for new client id",
+          "percentage": 20
+        },
+        {
+          "text": "Configure new client",
+          "percentage": 0
+        },
+        {
+          "text": "Generate and publish source code",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Client ID",
+          "type": "string"
+        },
+        {
+          "name": "Redirect URI",
+          "type": "string"
+        },
+        {
+          "name": "Tracking ID",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "google-map",
+      "name": "Map Integration",
+      "description": "Integrate map into the project",
+      "icon": "https://logo.clearbit.com/boxxaerealis.com",
+      "progress": [
+        {
+          "text": "Waiting for new client id",
+          "percentage": 20
+        },
+        {
+          "text": "Configure new client",
+          "percentage": 0
+        },
+        {
+          "text": "Generate and publish source code",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "API Key",
+          "type": "string"
+        },
+        {
+          "name": "Default Zoom",
+          "description": "A value between 2 to 15",
+          "type": "number",
+          "min": "2",
+          "max": "15"
+        },
+        {
+          "name": "Marker Icon Url",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "CRM Integration",
+      "description": "Integrate and configure a CRM instance",
+      "icon": "https://logo.clearbit.com/salesforce.com",
+      "progress": [
+        {
+          "text": "Waiting for new client id",
+          "percentage": 20
+        },
+        {
+          "text": "Configure new client",
+          "percentage": 0
+        },
+        {
+          "text": "Generate and publish source code",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Delegated Gateway URL",
+          "type": "string"
+        },
+        {
+          "name": "Identity Provider Login URL",
+          "type": "number",
+          "min": "2",
+          "max": "15"
+        }
+      ]
+    },
+    {
+      "id": "shopping-cart",
+      "name": "Shopping Cart",
+      "description": "Pre-configured shopping cart feature",
+      "icon": "https://logo.clearbit.com/shoppingkart.com",
+      "progress": [
+        {
+          "text": "Generate API Key",
+          "percentage": 20
+        },
+        {
+          "text": "Configure API",
+          "percentage": 0
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "API Key",
+          "type": "string"
+        },
+        {
+          "name": "Categories",
+          "description": "Comma separated list of categories",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "User Feedback",
+      "description": "Pre-configured user feedback form",
+      "icon": "https://logo.clearbit.com/surveymonkey.com",
+      "progress": [
+        {
+          "text": "Generate API Key",
+          "percentage": 20
+        },
+        {
+          "text": "Configure API",
+          "percentage": 0
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Title",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "resource-group",
+      "name": "Azure Resource Group",
+      "description": "Create and configurat an Azure Resource Group",
+      "icon": "https://logo.clearbit.com/movemetothecloud.net",
+      "progress": [
+        {
+          "text": "Provision resource group",
+          "percentage": 20
+        },
+        {
+          "text": "Validation",
+          "percentage": 0
+        }
+      ],
+      "configurations": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Price Plan",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

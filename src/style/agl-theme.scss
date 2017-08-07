@@ -1,0 +1,40 @@
+@import 'mixins';
+@import '~@angular/material/theming';
+@include mat-core();
+.agl-theme {
+  $candy-app-primary: mat-palette($mat-indigo);
+  $candy-app-accent: mat-palette($mat-amber);
+  $candy-app-warn: mat-palette($mat-red);
+  $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
+  @include angular-material-theme($candy-app-theme);
+  @include addColor(transparent, transparent);
+  @include addColor(primary, #001cb0, #fff);
+  @include addColor(secondary, #18dcee, #333);
+  @include addColor(ternary, #00bcd4, #333);
+  @include addColor(accent, #ffe75e, #333);
+  @include addColor(accent-1, #6031a6, #fff);
+  @include addColor(title, #333, #fff);
+  @include addColor(card, #ffffff, #666);
+  @include addColor(page, #f5f5f5, #666);
+  @include addColor(white, #fff, #000);
+  @include addColor(black, #000, #fff);
+  @include addColor(error, #D02A2B, #fff);
+  @include addColor(success, #29D185, #fff);
+  @include addColor(warning, #ffae27, #424242);
+  @include addColor(divider, rgba(0, 0, 0, 0.1));
+  @include addColor(info-g1, #ddd);
+  .gradient1 {
+    background-image: linear-gradient(to right, rgb(0, 26, 176) 0px, rgb(24, 223, 239) 100%);
+  }
+  .shadow-1 {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05) !important;
+  }
+  .shadow-1-l {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05) !important;
+  }
+  &.ff1,
+  .ff1 {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  @import 'animation';
+}

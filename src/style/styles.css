@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  line-height: 20px !important;
+}
+
+.mat-input-underline,
+.mat-select-underline {
+  display: none;
+}
+
+.mat-input-wrapper {
+  margin: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.mat-select-placeholder {
+  text-align: left;
+}
+
+.mat-select-trigger {
+  height: auto !important;
+}
+
+.mat-select-value-text {
+  line-height: inherit !important;
+}
+
+.focused .mat-select-placeholder {
+  margin-top: 10px !important;
+}

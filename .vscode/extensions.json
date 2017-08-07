@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "steoates.autoimport",
+    "natewallace.angular2-inline",
+    "steoates.autoimport",
+    "JerryHong.autofilename",
+    "rintoj.blank-line-organizer",
+    "streetsidesoftware.code-spell-checker",
+    "rintoj.json-organizer",
+    "peterjuras.sort-imports",
+    "eg2.tslint"
+  ]
+}
